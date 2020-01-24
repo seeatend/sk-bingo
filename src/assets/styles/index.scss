@@ -1,0 +1,12 @@
+// Fonts
+@import "./fonts.scss";
+
+// Common
+@import "../../components/common/style.scss";
+
+
+// Components
+@import "./app.scss";
+@import "./components/start.scss";
+@import "./components/cards.scss";
+@import "./components/congrats.scss";

@@ -1,0 +1,109 @@
+.page-content.congrats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .congrats-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../../images/congratulations-bg.png');
+    background-repeat: no-repeat;
+
+    .logos-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .congrats-text {
+        color: #FFFFFF;
+        font-family: Futura;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 40px;
+        margin: 0 0 60px;
+      }
+
+      .logos {
+        display: flex;
+        flex-wrap: wrap;
+
+        .logo-img {
+          width: 33%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 20px 0;
+          
+          img.sk {
+            width: 90px;
+          }
+          img.c {
+            width: 68px;
+          }
+          img.zed {
+            width: 61px;
+          }
+          img.unikrn {
+            width: 86px;
+          }
+          img.basket {
+            width: 91px;
+          }
+        }
+      }
+    }
+
+    .footer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      background-color: #ECEBF3;
+
+      .winner-text {
+        color: #BABABA;
+        font-family: 'Futura-Heavy';
+        font-size: 19px;
+        font-weight: bold;
+        letter-spacing: 1.43px;
+        line-height: 24px;
+      }
+
+      .start-btn {
+        width: 70vw;
+        border-radius: 4px;
+        background-color: #5B4099;
+        color: #F8F8F8;
+        font-size: 16px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 35px;
+        border: none;
+      }
+
+      .vhsLogo {
+        visibility: hidden;
+      }
+
+      .indicator {
+        height: 5px;
+        width: 134px;
+        border-radius: 100px;
+        background-color: #000000;
+        margin-top: 20px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
